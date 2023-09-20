@@ -1,0 +1,78 @@
+.wrapperCard{
+    display: block;
+    font-size: 16px;
+    position: relative;
+    width: 274px;
+    height: 426px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.wraperTitle{
+    display: flex;
+    justify-content: space-between;
+    height: 24px;
+    align-items: center;
+    margin-bottom: 4px;
+}
+.title{
+    margin: 0;
+    font-family: 'Manrope-Medium';
+    font-size: 16px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-family: 'Manrope-Regular';
+    list-style: none;
+}
+.item{
+    font-size: 12px;
+    padding:0 6px;
+    margin-top: 4px;
+
+}
+li:not(:last-child){
+border-right: solid gray 1px;
+}
+.imageCard{
+    margin-bottom: 4px;
+    object-fit: cover;
+    width: 274px;
+    height: 268px;
+    border-radius: 12px;
+}
+.icon{
+    position: absolute;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+    top: 16px;
+    left: 240px;
+    background-image: url('../images/heard.svg');
+}
+.iconChecked{
+    background-image: url(../images/heardChecked.svg);
+}
+
+.modelName{
+    font-family: 'Inter-Medium';
+    color: blue;
+}
+
+
+.button{
+    margin-top: 26px;
+    width: 100%;
+    height: 44px;
+    color: #fff;
+   border-radius: 12px;
+   border: none;
+    background-color: #3470FF;;
+}
+.button:hover{
+    /* transition: background-color; */
+    background: #0B44CD;
+    cursor: pointer;
+}

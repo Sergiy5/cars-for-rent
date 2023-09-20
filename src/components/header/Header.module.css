@@ -1,0 +1,28 @@
+.nav{
+    
+    flex-direction: row;
+}
+
+.listNav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.itemNav{
+    vertical-align: middle;
+    padding-top: 5px;
+    cursor: pointer;
+    margin-right: 25px;
+    width: 155px;
+    height: 30px;
+    border-radius: 12px;
+    border: none;
+    background: #3470FF;
+}
+
+.itemNavLink{
+    font-size: 20px;
+    color: floralwhite;
+    text-decoration: none;
+}
