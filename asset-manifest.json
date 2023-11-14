@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cars-for-rent/static/css/main.364b7fb8.css",
-    "main.js": "/cars-for-rent/static/js/main.3bbb36e1.js",
+    "main.js": "/cars-for-rent/static/js/main.df994898.js",
     "static/media/Inter-Medium.ttf": "/cars-for-rent/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
     "static/media/Manrope-SemiBold.ttf": "/cars-for-rent/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
     "static/media/Manrope-Medium.ttf": "/cars-for-rent/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
@@ -10,10 +10,10 @@
     "static/media/heard.svg": "/cars-for-rent/static/media/heard.282d936f414f4c6884ab.svg",
     "static/media/heardChecked.svg": "/cars-for-rent/static/media/heardChecked.202b445aca01795627d2.svg",
     "main.364b7fb8.css.map": "/cars-for-rent/static/css/main.364b7fb8.css.map",
-    "main.3bbb36e1.js.map": "/cars-for-rent/static/js/main.3bbb36e1.js.map"
+    "main.df994898.js.map": "/cars-for-rent/static/js/main.df994898.js.map"
   },
   "entrypoints": [
     "static/css/main.364b7fb8.css",
-    "static/js/main.3bbb36e1.js"
+    "static/js/main.df994898.js"
   ]
 }
