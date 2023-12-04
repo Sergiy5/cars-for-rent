@@ -1,8 +1,6 @@
-const ListCars = () => {
+import SimpleSlider from "components/slider/slider";
 
+export const HomeSlider = () => {
 
-    return (
-        <>
-        </>
-    )
+    return <SimpleSlider />;
 }

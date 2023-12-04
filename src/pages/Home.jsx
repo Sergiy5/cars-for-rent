@@ -1,6 +1,8 @@
+import { HomeSlider } from "components/home/home";
+
 const Home = () => {
 
-    return <h2>Foo</h2>
+    return <HomeSlider />;
 };
 
 export default Home;

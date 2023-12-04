@@ -27,7 +27,7 @@ const Catalog = () => {
       setAdverts(res.data);
     });
   }, []);
-
+  
   const startIndex = currentPage * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const carsOnPage = adverts.slice(startIndex, endIndex);
