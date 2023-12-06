@@ -2,22 +2,20 @@ import styled from "styled-components";
 
 export const ContainerSliderStyled = styled.div`
 display: inline;
-width: 80%;
 max-width: 1280px;
-margin: 0 auto;
-padding: 3rem 0;
+margin: 50px auto;
 text-align: center;
 list-style: none;
-
-
-h1 {
-    font-size: 1.9rem;
-}
-
-p {
-    width: 28rem;
-    margin: 0 auto;
-    padding: 1rem 0;
-    font-size: 1rem;
-}
+border-radius: 5px;
+border: 3px;
+border-color: red;
 `
+
+export const IconWrapper = styled.div`
+  width: 150px;
+  padding: 15px 0;
+  border: 3px solid lightblue;
+  border-radius: 10px;
+`;
+
+

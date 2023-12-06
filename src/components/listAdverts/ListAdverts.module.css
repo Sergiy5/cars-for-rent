@@ -50,10 +50,10 @@ border-right: solid gray 1px;
     height: 18px;
     top: 16px;
     left: 240px;
-    background-image: url('../images/heard.svg');
+    background-image: url('../../images/heard.svg');
 }
 .iconChecked{
-    background-image: url(../images/heardChecked.svg);
+    background-image: url(../../images/heardChecked.svg);
 }
 
 .modelName{
