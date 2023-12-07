@@ -7,66 +7,14 @@ import 'slick-carousel/slick/slick-theme.css';
 import { ContainerSliderStyled, IconWrapper } from './slider.styled';
 import {icons} from '../carIcons/CarIcons'
 
-const arr = [
-  {
-    carLogo: 'TOYOTA',
-    logo: 'img',
-  },
-  {
-    carLogo: 'Alfa Romeo',
-    logo: 'img',
-  },
-  {
-    carLogo: 'VW',
-    logo: 'img',
-  },
-  {
-    carLogo: 'FORD',
-    logo: 'img',
-  },
-  {
-    carLogo: 'HONDA',
-    logo: 'img',
-  },
-  {
-    carLogo: 'BMW',
-    logo: 'img',
-  },
-  {
-    carLogo: 'MAZDA',
-    logo: 'img',
-  },
-  {
-    carLogo: 'NISSAN',
-    logo: 'img',
-  },
-  {
-    carLogo: 'FIAT',
-    logo: 'img',
-  },
-  {
-    carLogo: 'RENOULT',
-    logo: 'img',
-  },
-  {
-    carLogo: 'NISSAN',
-    logo: 'img',
-  },
-];
+
 
 export default class SimpleSlider extends Component {
   render() {
-    // const settings = {
-    //   dots: true,
-    //   infinite: true,
-    //   speed: 500,
-    //   slidesToShow: 1,
-    //   slidesToScroll: 1,
-    // };
-    const settings = {
+       const settings = {
       // dots: true,
       infinite: true,
-      slidesToShow: 5,
+      slidesToShow: 7,
       slidesToScroll: 1,
       autoplay: true,
       speed: 3000,
@@ -76,8 +24,9 @@ export default class SimpleSlider extends Component {
     return (
       <ContainerSliderStyled>
         <h2>
-          <GiCurlyWing flipHorizontal />
-          =Brands of cars=
+          <GiCurlyWing  />
+          Brands of cars
+          <GiCurlyWing style={{ transform: 'rotateY(180deg)' }} />
         </h2>
         <Slider {...settings}>
           {icons.map(icon => {

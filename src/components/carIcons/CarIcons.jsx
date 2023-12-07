@@ -11,9 +11,20 @@ import {
   SiMaserati,
   SiTesla,
   SiMercedes,
+  SiAudi,
+  SiSubaru,
+  SiMitsubishi,
+  SiChrysler,
+  SiFerrari,
+  SiCitroen,
+  SiVolvo,
+  SiLamborghini,
+  SiBentley,
+  SiMini,
+  SiHyundai,
 } from 'react-icons/si';
 
-const size = '60px';
+const size = '50px';
 
 export const icons = [
   <SiToyota size={size} />,
@@ -28,4 +39,16 @@ export const icons = [
   <SiMaserati size={size} />,
   <SiTesla size={size} />,
   <SiMercedes size={size} />,
+  <SiAudi size={size} />,
+  <SiSubaru size={size} />,
+  <SiMitsubishi size={size} />,
+  <SiChrysler size={size} />,
+  <SiFerrari size={size} />,
+  <SiCitroen size={size} />,
+  <SiVolvo size={size} />,
+  <SiLamborghini size={size} />,
+  <SiBentley size={size} />,
+  <SiMini size={size} />,
+  <SiHyundai size={size} />,
 ];
+

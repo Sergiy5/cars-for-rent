@@ -22,17 +22,29 @@ const Catalog = () => {
      setShowModal(true);
    };
 
-  useEffect(() => {
-    axios.get('/adverts').then(res => {
-      setAdverts(res.data);
-    });
+   useEffect( () => {
+     try {
+       axios.get('/adverts').then(res => {
+       console.log(res)
+        setAdverts(res.data);
+      });
+      
+     } catch (error) {
+       console.log(error)
+    }
+      
   }, []);
   
   const startIndex = currentPage * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const carsOnPage = adverts.slice(startIndex, endIndex);
 
-  const handlePageChange = selectedPage => {
+  const carsOnPage = currentPage === 0
+    ? adverts.slice(startIndex, endIndex)
+    : adverts.slice(0, endIndex);
+      
+ 
+
+  const handlePageChange = () => {
     let counter = 0;
     counter += 1;
     setCurrentPage(currentPage + counter);
