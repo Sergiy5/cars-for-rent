@@ -1,11 +1,10 @@
 import { LogoHeader } from "components/logo/Logo";
-import { ItemListStyled, ListStyled, NavLinkStyled, NavStyled, WrapperHeaderStyled } from "./heder.styled";
+import { ItemListStyled, ListStyled, NavLinkStyled, WrapperHeaderStyled } from "./heder.styled";
 
 const Header = () => {
   return (
     <WrapperHeaderStyled>
       <LogoHeader />
-      <NavStyled>
         <ListStyled>
           <ItemListStyled>
             <NavLinkStyled to="/">Home</NavLinkStyled>
@@ -17,7 +16,6 @@ const Header = () => {
             <NavLinkStyled to="/favorite">Favorite</NavLinkStyled>
           </ItemListStyled>
         </ListStyled>
-      </NavStyled>
     </WrapperHeaderStyled>
   );
 };

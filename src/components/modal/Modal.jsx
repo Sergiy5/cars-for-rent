@@ -1,6 +1,7 @@
 import { useEffect} from 'react';
 import { createPortal } from 'react-dom';
-import styles from './Modal.module.css';
+// import styles from './Modal.module.css';
+import { ModalStyled, OverlayStyled } from './Modal.styled';
 
 const modalRoot = document.querySelector('#modal-root');
 
@@ -26,9 +27,9 @@ export const Modal = ({ children, closeModal }) => {
   };
 
   return createPortal(
-    <div className={styles.overlay} onClick={handleOverlayClick}>
-      <div className={styles.modal}>{children}</div>
-    </div>,
+    <OverlayStyled  onClick={handleOverlayClick}>
+      <ModalStyled>{children}</ModalStyled>
+    </OverlayStyled>,
     modalRoot
   );
 };

@@ -15,7 +15,7 @@ export const CarDetail = ({ car }) => {
     return (
       <div className={styles.wrapperCard} key={nanoid()}>
         <img className={styles.imageCard} src={img} alt={`${make}${model}`} />
-        <div className={styles.wraperTitle}>
+        <div className={styles.wrapperTitle}>
           <h2 className={styles.title}>
             {make} <span className={styles.modelName}>{model} </span>
             {year}

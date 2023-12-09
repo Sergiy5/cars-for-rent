@@ -1,18 +1,18 @@
-import { NavLink } from 'react-router-dom';
-import styles from '../components/styles/BtnNotFound.module.css';
+import { LinkNotFoundStyled } from 'components/styles/NotFound.styled';
+import { WrapperNotFound } from 'components/styles/NotFound.styled';
 
 const NotFound = () => {
   return (
-    <div className={styles.wrappernotFound}>
+    <WrapperNotFound >
       <div>
         We’re sorry, the page you requested could not be found. Please go back
         to the homepage.
       </div>
-      <NavLink to="/" className={styles.btnNotFound}>
+      <LinkNotFoundStyled to="/" >
         {' '}
         Back to Home
-      </NavLink>
-    </div>
+      </LinkNotFoundStyled>
+    </WrapperNotFound>
   );
 };
 

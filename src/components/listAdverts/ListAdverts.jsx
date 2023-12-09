@@ -1,11 +1,18 @@
 import { nanoid } from 'nanoid';
-import styles from './ListAdverts.module.css';
-
+import {
+  ButtonCardStyled,
+  IconStyled,
+  ImageCardStyled,
+  ItemCardStyled,
+  ListCardStyled,
+  ModelNameStyled,
+  TitleStyled,
+  WrapperCardStyled,
+  WrapperTitleStyled,
+} from './ListAdverts.styled';
 
 const ListAdverts = ({ cars, handleCar }) => {
-
-
-    return cars.map(
+  return cars.map(
     ({
       make,
       model,
@@ -18,48 +25,39 @@ const ListAdverts = ({ cars, handleCar }) => {
       img,
       functionalities,
     }) => (
-      <div className={styles.wrapperCard} key={nanoid()}>
-        <div className={styles.icon}></div>
-        <img className={styles.imageCard} src={img} alt={`${make}${model}`} />
-        <div className={styles.wraperTitle}>
-          <h2 className={styles.title}>
-            {make} <span className={styles.modelName}>{model} </span>
+      <WrapperCardStyled key={nanoid()}>
+        <IconStyled />
+        <ImageCardStyled src={img} alt={`${make}${model}`} />
+        <WrapperTitleStyled>
+          <TitleStyled>
+            {make}
+            <ModelNameStyled model={model} />
             {year}
-          </h2>
+          </TitleStyled>
           <p>{rentalPrice}</p>
-        </div>
-        <ul className={styles.list}>
-          <li key={nanoid()} className={styles.item}>
+        </WrapperTitleStyled>
+        <ListCardStyled>
+          <ItemCardStyled key={nanoid()}>
             {address.split(' ').slice(3, 4)}
-          </li>
-          <li key={nanoid()} className={styles.item}>
+          </ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>
             {address.split(' ').slice(4)}
-          </li>
-          <li key={nanoid()} className={styles.item}>
-            {rentalCompany}
-          </li>
-          <li key={nanoid()} className={styles.item}>
-            {type}
-          </li>
-          <li key={nanoid()} className={styles.item}>
-            {model}
-          </li>
-          <li key={nanoid()} className={styles.item}>
-            {id}
-          </li>
-          <li key={nanoid()} className={styles.item}>
+          </ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>{rentalCompany}</ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>{type}</ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>{model}</ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>{id}</ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>
             {rentalPrice.split('').slice(1).join('') < 100
               ? 'Economy car rentals'
               : 'Premium'}
-          </li>
-          <li key={nanoid()} className={styles.item}>
-            {functionalities[0]}
-          </li>
-        </ul>
-        <button className={styles.button} onClick={()=>handleCar(id)}>
+          </ItemCardStyled>
+          <ItemCardStyled key={nanoid()}>{functionalities[0]}</ItemCardStyled>
+        </ListCardStyled>
+        <ButtonCardStyled onClick={() => handleCar(id)}>
           Lern more
-        </button>
-      </div>
+        </ButtonCardStyled>
+      </WrapperCardStyled>
     )
   );
 };

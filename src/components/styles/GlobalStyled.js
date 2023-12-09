@@ -1,6 +1,10 @@
+import 'modern-normalize'
+import { createGlobalStyle } from 'styled-components'
 
 
-/* body {
+ const GlobalStyle = createGlobalStyle`
+
+body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -37,4 +41,8 @@ code {
   font-family: 'Manrope-SemiBold';
   src: url('./components/fonts/Manrope/Manrope-SemiBold.ttf') format('truetype');
   font-weight: 600;
-} */
+}
+
+`;
+
+export default GlobalStyle;
