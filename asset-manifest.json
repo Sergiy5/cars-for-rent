@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/cars-for-rent/static/css/main.7c871ad5.css",
-    "main.js": "/cars-for-rent/static/js/main.22bc9aa8.js",
+    "main.css": "/cars-for-rent/static/css/main.03fe5da4.css",
+    "main.js": "/cars-for-rent/static/js/main.48480205.js",
     "static/media/Inter-Medium.ttf": "/cars-for-rent/static/media/Inter-Medium.3f7acfe50aad7ad68548.ttf",
+    "static/media/Montserrat-SemiBold.ttf": "/cars-for-rent/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
+    "static/media/Montserrat-Regular.ttf": "/cars-for-rent/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
     "static/media/Manrope-SemiBold.ttf": "/cars-for-rent/static/media/Manrope-SemiBold.310f108cc524df0e5ffc.ttf",
     "static/media/Manrope-Medium.ttf": "/cars-for-rent/static/media/Manrope-Medium.08894ccb04665d1a9d53.ttf",
     "static/media/Manrope-Regular.ttf": "/cars-for-rent/static/media/Manrope-Regular.a9b9e09fe6b69741f316.ttf",
@@ -12,12 +14,11 @@
     "static/media/slick.woff": "/cars-for-rent/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/cars-for-rent/index.html",
     "static/media/heard.svg": "/cars-for-rent/static/media/heard.282d936f414f4c6884ab.svg",
-    "static/media/heardChecked.svg": "/cars-for-rent/static/media/heardChecked.202b445aca01795627d2.svg",
-    "main.7c871ad5.css.map": "/cars-for-rent/static/css/main.7c871ad5.css.map",
-    "main.22bc9aa8.js.map": "/cars-for-rent/static/js/main.22bc9aa8.js.map"
+    "main.03fe5da4.css.map": "/cars-for-rent/static/css/main.03fe5da4.css.map",
+    "main.48480205.js.map": "/cars-for-rent/static/js/main.48480205.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c871ad5.css",
-    "static/js/main.22bc9aa8.js"
+    "static/css/main.03fe5da4.css",
+    "static/js/main.48480205.js"
   ]
 }
