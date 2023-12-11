@@ -20,7 +20,7 @@ export const WrapperTitleStyled = styled.div`
 
 export const TitleStyled = styled.h2`
   margin: 0;
-  font-family: 'Manrope-Medium';
+  font-family: 'ManropeMedium';
   font-size: 16px;
 `;
 
@@ -29,8 +29,7 @@ export const ListCardStyled = styled.ul`
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
-  font-family: 'Manrope-Regular';
-  list-style: none;
+  font-family: 'ManropeRegular';
 `;
 export const ItemCardStyled = styled.li`
   font-size: 12px;
@@ -60,21 +59,19 @@ export const IconStyled = styled.div`
 `;
 
 export const ModelNameStyled = styled.span`
-  font-family: 'Inter-Medium';
+  /* font-family: 'InterMedium'; */
   color: blue;
 `;
 
 export const ButtonCardStyled = styled.button`
-  margin-top: 26px;
+  margin-top: 29px;
   width: 100%;
   height: 44px;
   color: #fff;
   border-radius: 12px;
-  border: none;
   background-color: #3470ff;
 
-  :hover {
+  /* :hover {
     background: #0b44cd;
-    cursor: pointer;
-  }
+  } */
 `;

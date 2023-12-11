@@ -12,6 +12,7 @@ import {
 } from './ListAdverts.styled';
 
 const ListAdverts = ({ cars, handleCar }) => {
+  console.log(cars);
   return cars.map(
     ({
       make,
@@ -30,8 +31,8 @@ const ListAdverts = ({ cars, handleCar }) => {
         <ImageCardStyled src={img} alt={`${make}${model}`} />
         <WrapperTitleStyled>
           <TitleStyled>
-            {make}
-            <ModelNameStyled model={model} />
+            {make}{' '}
+            <ModelNameStyled>{model}</ModelNameStyled>,{' '}
             {year}
           </TitleStyled>
           <p>{rentalPrice}</p>

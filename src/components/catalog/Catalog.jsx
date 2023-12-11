@@ -25,7 +25,6 @@ const Catalog = () => {
    useEffect( () => {
      try {
        axios.get('/adverts').then(res => {
-       console.log(res)
         setAdverts(res.data);
       });
       

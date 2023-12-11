@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter } from 'react-router-dom';
-import GlobalStyle from 'components/styles/GlobalStyled';
+import GlobalStyle from 'components/styles/GlobalStyle';
 import { App } from 'components/App';
 // import './components/fonts/Inter/Inter-Medium.ttf';
 // import './components/fonts/Manrope/Manrope-Medium.ttf';
